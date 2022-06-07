@@ -35,7 +35,7 @@ int main()
 	cout << "Sum : ";
 	cout << firstNum + secondNum << endl;
 
-	const int a = 0;
+	const int a = 0; //값 수정불가 (상수)
 	constexpr int b = fac(4);
 }
 */

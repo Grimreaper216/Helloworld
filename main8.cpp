@@ -1,10 +1,11 @@
+/*
 #include <iostream>
 
 using namespace std;
 
 int main()
 {
-	/*
+	
 	int score = { 0 };
 	cin >> score;
 
@@ -146,7 +147,7 @@ int main()
 			break;
 
 		case 2:
-			cout << "남자" << endl;
+			cout << "여자" << endl;
 			__fallthrough;
 		case 4:
 			cout << "여자" << endl;
@@ -155,9 +156,10 @@ int main()
 			cout << "외계인 " << endl;
 			break;
 		}
-		*/
+		
 	}
-
+}
+*/
 
 
 

@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-	/*
+	/* // 네모그리기
 	cout << "* * * * * * * * * *" << endl;
 	cout << "*                 *" << endl;
 	cout << "*                 *" << endl;
