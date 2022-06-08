@@ -1,6 +1,10 @@
 #include <iostream>
+#include"employeestruct.h"
+#include"CircleClass.h"
 
 using namespace std;
+
+/*
 const double PI = 3.141592;
 
 struct C2dType //circle 2D Type
@@ -34,10 +38,11 @@ bool IsOverlapped(CircleType c1, CircleType c2)
 	double distance = getDistance(c1, c2);
 	return (distance < c1.radius + c2.radius);
 }
+*/
 
-
-int main() 
+int main()
 {
+	/*
 	CircleType c1, c2;
 	c1.center.x = 10;
 	c1.center.y = 10;
@@ -48,5 +53,10 @@ int main()
 	c2.radius = 10;
 	bool blsOverlapped = IsOverlapped(c1, c2);
 	cout < "IsOverlapped =" << boolalpha << blsOverlapped << noboolalpha << endl;
+	*/
 
+	CircleClass cc1 = { 10,10,10 };
+	CircleClass cc2 = { 30,30,10 };
+	bool blsOverlapped = cc1.IsOverlapped(cc2.circle);
+	cout << "IsOverlapped =" << boolalpha << blsOverlapped << noboolalpha << endl;
 }

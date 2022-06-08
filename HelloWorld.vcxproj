@@ -141,6 +141,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CircleClass.cpp" />
     <ClCompile Include="main 10.cpp" />
     <ClCompile Include="main 9.cpp" />
     <ClCompile Include="main.cpp" />
@@ -153,7 +154,11 @@
     <ClCompile Include="main8.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CircleClass.h" />
     <ClInclude Include="employeestruct.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HelloWorld.sln" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
